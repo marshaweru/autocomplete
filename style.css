@@ -18,3 +18,12 @@ body{
     background: wheat;
 }
 /*beautify row*/
+.row{
+    align-items: center;
+    display: flex;
+    padding: 12px 22px;
+}
+/*Beautify input field*/
+input{
+    
+}
