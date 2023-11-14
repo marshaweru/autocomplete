@@ -11,3 +11,10 @@ body{
     color: black;
 }
 /*Beautify search-box*/
+.search-box{
+    margin: 220px auto 0;
+    border-radius: 6px;
+    width: 650px;
+    background: wheat;
+}
+/*beautify row*/
