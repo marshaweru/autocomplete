@@ -57,5 +57,9 @@ button .fa-solid{
 }
 /*Styling for result box li*/
 .result-box ul li{
-    padding: ;
+    padding: 16px 12px;
+    cursor: pointer;
+    list-style: none;
+    border-radius: 4px;
 }
+/*Add hover effect for suggested search terms*/
