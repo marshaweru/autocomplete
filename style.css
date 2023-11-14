@@ -41,5 +41,9 @@ button{
 }
 /*Beautify icon*/
 button .fa-solid{
-    
+    color: cadetblue;
+    width: 26px;
+    font-size: 23px;
+    cursor: pointer;
 }
+/*Color change for text in placeholder*/
