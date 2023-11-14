@@ -31,3 +31,10 @@ inputBox.onkeyup = function(){
     }
 }
 //Function to display result
+function display(result){
+    const content = result.map((list)=>{
+        return "<li>" + list + "</li>";
+    });
+//to give result/display content of unordered list
+    resultBox.innerHTML = "<ul" + content + "</ul>";
+}
