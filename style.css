@@ -47,3 +47,6 @@ button .fa-solid{
     cursor: pointer;
 }
 /*Color change for text in placeholder*/
+::placeholder{
+    color: cadetblue;
+}
