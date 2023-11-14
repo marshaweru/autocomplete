@@ -25,5 +25,9 @@ body{
 }
 /*Beautify input field*/
 input{
-    
+    height: 55px;
+    border: 0;
+    outline: 0;
+    flex: 1;
+    color: rgb(26, 22, 22);
 }
