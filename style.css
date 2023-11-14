@@ -6,3 +6,6 @@
 }
 /*Above is my boiler plate css for all my apps*/
 /*Add and style body tag*/
+body{
+    background: firebrick;
+}
