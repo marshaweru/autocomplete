@@ -30,6 +30,10 @@ inputBox.onkeyup = function(){
         console.log(result);
     }
     display(result);//To call 
+
+    if(!result.length){//removes horizontal line
+        resultBox.innerHTML = '';
+    }
 }
 //Function to display result
 function display(result){
@@ -40,4 +44,7 @@ function display(result){
     resultBox.innerHTML = "<ul" + content.join('') + "</ul>";
 }
 //To display list in input field
-function selectInput
+function selectInput(list){
+    inputBox.value = list.innerHTML;
+    resultBox.innerHTML = '';
+}
