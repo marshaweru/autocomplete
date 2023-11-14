@@ -1,0 +1,1 @@
+//Create array containing suggested search terms
