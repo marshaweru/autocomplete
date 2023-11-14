@@ -34,3 +34,12 @@ input{
     font-size: 20px;
 }
 /*Design button and icon*/
+button{
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+/*Beautify icon*/
+button .fa-solid{
+    
+}
