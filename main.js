@@ -29,12 +29,15 @@ inputBox.onkeyup = function(){
         });
         console.log(result);
     }
+    display(result);//To call 
 }
 //Function to display result
 function display(result){
     const content = result.map((list)=>{
-        return "<li>" + list + "</li>";
+        return "<li onlcick=selectInput(this)>" + list + "</li>";
     });
 //to give result/display content of unordered list
-    resultBox.innerHTML = "<ul" + content + "</ul>";
+    resultBox.innerHTML = "<ul" + content.join('') + "</ul>";
 }
+//To display list in input field
+function selectInput
