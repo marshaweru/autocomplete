@@ -20,3 +20,14 @@ const resultBox = document.querySelector(".result-box");
 const inputBox = document.getElementById("input-box");
 
 //Function for execution when we type anything in input box
+inputBox.onkeyup = function(){
+    let result = [];
+    let input = inputBox.value;
+    if(input.length){
+        result = availableKeyWords.filter((keyword)=>{
+            return keyword.toLowerCase().includes(input.toLowerCase());
+        });
+        console.log(result);
+    }
+}
+//Function to display result
