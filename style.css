@@ -66,3 +66,7 @@ button .fa-solid{
 .result-box ul li:hover{
     background: rgb(120, 182, 179);
 }
+/*Styling for result box*/
+.result-box{
+    max-height: 300px;
+}

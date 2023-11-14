@@ -32,7 +32,7 @@ inputBox.onkeyup = function(){
     display(result);//To call 
 
     if(!result.length){//removes horizontal line
-        resultBox.innerHTML = '';
+        resultsBox.innerHTML = '';
     }
 }
 //Function to display result
