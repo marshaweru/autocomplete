@@ -53,5 +53,9 @@ button .fa-solid{
 /*Style result-box*/
 .result-box ul{
     padding: 16px 12px;
-    b
+    border-top: 2px solid gray;
+}
+/*Styling for result box li*/
+.result-box ul li{
+    padding: ;
 }
