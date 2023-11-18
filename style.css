@@ -41,7 +41,7 @@ button{
 }
 /*Beautify icon*/
 button .fa-solid{
-    color: cadetblue;
+    color: rgb(132, 223, 226);
     width: 26px;
     font-size: 23px;
     cursor: pointer;
