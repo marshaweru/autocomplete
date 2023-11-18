@@ -7,8 +7,8 @@
 /*Above is my boiler plate css for all my apps*/
 /*Add and style body tag*/
 body{
-    background: firebrick;
-    color: black;
+    background: rgb(216, 119, 119);
+    color: black);
 }
 /*Beautify search-box*/
 .search-box{
