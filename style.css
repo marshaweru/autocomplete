@@ -64,7 +64,7 @@ button .fa-solid{
 }
 /*Add hover effect for suggested search terms*/
 .result-box ul li:hover{
-    background: rgb(119, 158, 158);
+    background: rgb(122, 138, 138);
 }
 /*Styling for result box*/
 .result-box{
