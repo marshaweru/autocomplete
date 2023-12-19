@@ -48,7 +48,7 @@ button .fa-solid{
 }
 /*Color change for text in placeholder*/
 ::placeholder{
-    color: rgb(132, 153, 153);
+    color: rgb(112, 126, 126);
 }
 /*Style result-box*/
 .result-box ul{
